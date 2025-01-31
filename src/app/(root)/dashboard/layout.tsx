@@ -15,8 +15,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     >
       <SidebarProvider>
         <AppSidebar />
-        <main className="w-full ">
-          <div className="flex items-center p-2 bg-sidebar ">
+        <main className="w-full p-2">
+          <div className="flex items-center p-2 bg-sidebar rounded-2xl">
             <div className="flex gap-2 items-center  w-full">
               <SidebarTrigger />
               <Separator
